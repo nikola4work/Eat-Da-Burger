@@ -1,13 +1,14 @@
 <form class="burger-form">
     <div class="form-group ">
-        <label for="burger">Enter the name of the burger you'd like to order then click the <b>Order Up!</b>
-            button:</label>
+        <label for="burger">
+            <h4 class="text">Enter the name of the burger you would like to order</h4>
+        </label>
         <input type="text" class="form-control" id="burgerOrder" name="burger">
     </div>
     <button type="submit" class="btn btn-primary" id="btnOrderBurger">Order Up!</button>
 </form>
 <br>
-<div class="row" >
+<div class="row">
     <div class="col-6">
         <div class="card">
             <h5 class="card-header text-center">Orders</h5>
@@ -18,8 +19,8 @@
                     <div class="card-body">
                         <h5 class="card-title">#{{this.id}}: {{this.burger_name}}</h5>
                         <p class="card-text">Your burger is ready to eat!</p>
-                        <button type="button" class="devourBurger btn btn-warning devour-button" id="btnDevour" data-id="{{this.id}}"
-                            data-newDevoured="{{devour}}">Devour it!</button>              
+                        <button type="button" class="devourBurger btn btn-warning devour-button" id="btnDevour"
+                            data-id="{{this.id}}" data-newDevoured="{{devour}}">Devour it!</button>
                     </div>
                 </div>
                 <hr>
@@ -38,7 +39,8 @@
                     <div class="card-body">
                         <h5 class="card-title">#{{this.id}}: {{this.burger_name}}</h5>
                         <p class="card-text">That was delicous!</p>
-                        <button class="delete-burger btn btn-danger" data-id="{{this.id}}"><i class="fa fa-trash-alt"></i></button>
+                        <button class="delete-burger btn btn-danger" data-id="{{this.id}}"><i
+                                class="fa fa-trash-alt"></i></button>
                     </div>
                 </div>
                 <hr>

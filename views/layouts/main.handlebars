@@ -10,14 +10,97 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a1a89f55a7.js"></script>
-    <link rel="stylesheet" href="../public/assets/css/styles.css" type="text/css" />
-
+    <link rel="stylesheet" href="/public/assets/">
+    <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Permanent+Marker&display=swap" rel="stylesheet">
     <style>
-        .burger-navbar {
-            color: red;
-            background-color: gold;
-            font-family: 'Knewave', cursive;
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("https://media.giphy.com/media/6jnKmSpBoJLaw/giphy.gif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
         }
+
+        .title {
+            font-size: 50px;
+            font-family: 'Akronim';
+            text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206, 89, 55, 0);
+        }
+
+
+        .fa {
+            margin-left: 50px;
+
+
+        }
+
+        .burger-form {
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+            left: 30%;
+
+        }
+
+        .text {
+            font-family: 'Akronim';
+            font-family: 'Permanent Marker';
+        }
+
+        #burgerOrder {
+            border: 1px solid orangered;
+        }
+
+        .card {
+            position: relative;
+            left: 13%;
+            background-color: #fff;
+            color: orangered;
+            border-radius: 10px;
+            max-width: 350px;
+
+        }
+
+        .card-body {
+            max-width: 300px;
+            font-family: 'Akronim';
+            font-family: 'Permanent Marker';
+            margin-left: -20px;
+            text-align: center;
+        }
+
+        .card-header {
+            letter-spacing: 1.2rem;
+            font-family: 'Akronim';
+            font-size: 35px;
+        }
+
+        .fa-trash-alt {
+            margin: 0 auto;
+        }
+
+
+        #btnOrderBurger {
+            border-radius: 10px;
+            background-color: orangered;
+            color: #ffffff;
+            font-family: 'Akronim';
+            font-family: 'Permanent Marker';
+            font-size: 25px;
+
+            outline: none;
+            transition: transform .2s;
+            border: 1px solid orangered;
+
+        }
+
+        #btnOrderBurger:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            outline: none;
+        }
+
 
         .devour-button {
             color: red;
@@ -27,8 +110,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light burger-navbar d-flex justify-content-center">
-        <h1><i class="fa fa-hamburger"></i> Burger-Dash <i class="fa fa-running"></i></h1>
+    <nav class="navbar justify-content-center">
+        <h1 class="title"><i class="fa fa-hamburger fa-3x"></i>
+            <br> Eat-Da-Burger </h1>
     </nav>
     <br>
     <div class="container">
