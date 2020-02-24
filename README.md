@@ -1,4 +1,4 @@
-# Burger
+# Eat-Da-Burger
 
 
 #### Burger-Repo, 2/20/2020
@@ -26,7 +26,7 @@
 ## Live Preview
 
 
-<img src"">
+<img src"https://github.com/nikola4work/Eat-Da-Burger/blob/master/public/assets/Images/burger.gif">
 
 
 
@@ -43,6 +43,10 @@
 Please email me for further questions at nikola4work@gmail.com
 
 ## Technologies Used
+
+* Node.js
+* mySQL
+* Heroku for Deployment
 
 
 
