@@ -26,7 +26,7 @@
 ## Live Preview
 
 
-<img src"https://github.com/nikola4work/Eat-Da-Burger/blob/master/public/assets/Images/burger.gif">
+<img src="https://github.com/nikola4work/Eat-Da-Burger/blob/master/public/assets/Images/burger.gif">
 
 
 
