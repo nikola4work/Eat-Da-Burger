@@ -26,7 +26,9 @@
 ## Live Preview
 
 
+<a href="https://burger--app.herokuapp.com/">Live Preview</a>
 <img src="https://github.com/nikola4work/Eat-Da-Burger/blob/master/public/assets/Images/burger.gif">
+
 
 
 
